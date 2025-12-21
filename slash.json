@@ -1,0 +1,21 @@
+{
+  "name": "faq",
+  "description": "Get a FAQ entry",
+  "options": [
+    {
+      "name": "entry",
+      "description": "Which FAQ entry to show",
+      "type": "STRING",
+      "required": true,
+      "choices": [
+        {"name": "Rules", "value": "rules"},
+        {"name": "Events", "value": "events"},
+        {"name": "Bot", "value": "bot"},
+        {"name": "Roles", "value": "roles"},
+        {"name": "Model Channel", "value": "model channel"},
+        {"name": "About the Server", "value": "about the server"}
+      ]
+
+    }
+  ]
+}
